@@ -1,7 +1,9 @@
 public class Main {
     public static void main(String[] args) {
+        printYear(2021);
+        applicationSelection(0, 2018);
+        calculationDeliveryDays(70);
     }
-
     public static void printYear(int year) {
         if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
             System.out.println(year + " год является високосным ");
